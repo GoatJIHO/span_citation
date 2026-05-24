@@ -43,5 +43,5 @@ Each training example should be a JSONL record with the following format:
 
 Run the full training and evaluation pipeline:
 ```
-bash scripts/train_script.sh
+scripts/train_script.sh
 ```
