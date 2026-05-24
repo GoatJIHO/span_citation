@@ -19,7 +19,7 @@ paths:
 # Expected training data path:
 #   ${paths.train_data_root}/${train_type_dirs[train_type]}/${data_name}/{train,val}.jsonl
 train_type_dirs:
-  new_ours: "ours_data"
+  ours: "ours_data"
   origin_training_data: "origin_training_data"
 
 # Evaluation files are resolved as:
@@ -32,7 +32,7 @@ eval_data_files:
 experiment:
   model: "qwen3"
   data_name: "act2"
-  train_type: "new_ours"
+  train_type: "ours"
   epochs: 10
   seed: 42
   run_id: "427"
