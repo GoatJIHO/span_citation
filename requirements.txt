@@ -1,10 +1,22 @@
-torch
-transformers
-peft
-datasets
-omegaconf
-wandb
-pandas
-scikit-learn
-tqdm
-numpy
+torch==2.9.0
+transformers==5.5.4
+accelerate==1.13.0
+peft==0.18.1
+datasets==3.6.0
+omegaconf==2.3.0
+wandb==0.24.0
+pandas==3.0.2
+numpy==2.4.3
+scikit-learn==1.8.0
+scipy==1.17.1
+tqdm==4.67.3
+safetensors==0.7.0
+tokenizers==0.22.2
+huggingface-hub==1.10.1
+pyarrow==23.0.1
+protobuf==6.33.6
+requests==2.33.1
+regex==2026.4.4
+pyyaml==6.0.3
+# requirements-optional.txt
+# flash-attn==2.8.3
